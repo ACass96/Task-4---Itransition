@@ -15,10 +15,10 @@
 
 #fondo {
     flex: 1;
-    background-image: url('./galaxia.avif'); /* Ruta de la imagen */
-    background-size: cover; /* La imagen cubre toda la mitad */
-    background-repeat: no-repeat; /* Evita que la imagen se repita */
-    background-position: center; /* Centra la imagen */
+    background-image: url('./galaxia.avif'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
     height: 100%;
 }
 
@@ -34,7 +34,7 @@
     box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
 }
 
-/* Títulos */
+
 #welcome h1 {
     margin: 0;
     font-size: 2.5rem;
@@ -46,18 +46,17 @@
     color: #555;
 }
 
-/* Formulario principal */
+
 form {
     width: 100%;
     max-width: 500px; 
-    margin: 0 auto; /* Centra horizontalmente */
-    padding: 20px; /* Espaciado interno */
+    margin: 0 auto; 
+    padding: 20px; 
     background-color: #ffffff; 
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Etiquetas */
 form .form-label {
     font-size: 1.2rem;
     font-weight: bold; 
@@ -65,7 +64,7 @@ form .form-label {
     margin-bottom: 5px;
 }
 
-/* Inputs de texto */
+
 form .form-control {
     width: 100%;
     padding: 10px;
@@ -77,39 +76,39 @@ form .form-control {
 }
 
 form .form-text {
-    font-size: 0.875rem; /* Tamaño más pequeño */
-    color: #6c757d; /* Texto gris */
-    margin-top: -5px; /* Ajuste de espacio con el input */
-    margin-bottom: 15px; /* Separación con el siguiente elemento */
+    font-size: 0.875rem; 
+    color: #6c757d; 
+    margin-top: -5px; 
+    margin-bottom: 15px; 
 }
 
 form .form-check-input {
-    margin-right: 10px; /* Espaciado con la etiqueta */
+    margin-right: 10px; 
 }
 
 form .form-check-label {
-    font-size: 0.9rem; /* Tamaño más pequeño */
-    color: #555; /* Texto gris oscuro */
+    font-size: 0.9rem; 
+    color: #555; 
 }
 
 form .btn-primary {
-    width: 100%; /* Ocupa todo el ancho */
-    padding: 10px 20px; /* Espaciado interno */
-    background-color: #007bff; /* Azul primario */
-    color: #fff; /* Texto blanco */
-    border: none; /* Sin bordes */
-    border-radius: 5px; /* Bordes redondeados */
-    font-size: 1rem; /* Tamaño de fuente */
-    cursor: pointer; /* Cambia el cursor al pasar por encima */
-    transition: background-color 0.3s ease, transform 0.2s ease; /* Animación suave */
+    width: 100%; 
+    padding: 10px 20px; 
+    background-color: #007bff; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px; 
+    font-size: 1rem; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 form .btn-primary:hover {
-    background-color: #0056b3; /* Azul más oscuro */
-    transform: translateY(-2px); /* Efecto sutil de elevación */
+    background-color: #0056b3; 
+    transform: translateY(-2px); 
 }
 
 form .btn-primary:active {
-    background-color: #003f7f; /* Azul aún más oscuro */
-    transform: translateY(1px); /* Efecto de "clic" */
+    background-color: #003f7f; 
+    transform: translateY(1px); 
 }
